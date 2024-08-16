@@ -6,6 +6,28 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+/* common classes*/
+.nav-common {
+    height: 3.125rem;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.nav-font1 {
+    font-size: 0.875rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*  Navbar  */
 
 .navbar {
@@ -15,37 +37,30 @@
     justify-content: space-evenly;
     color: white;
     align-items: center;
-    padding: 0 0.2rem;
+    padding: 0 0.1rem;
 
 }
-/*nav 1st div*/
+
 .logo {
-    width: 10rem;
-    height: 3.125rem;
     padding: 0 0.5rem;
 }
 
-
 .logo img {
-    object-fit: cover;
+
     height: 3rem;
     width: 8rem;
-    border: 1px solid transparent;
-    border-radius: 2px;
+    object-fit: cover;
 }
 
 .logo img:hover {
     border: 1px solid #fff
 }
-/*nav 2nd div*/
+
 
 .location {
-    height: 3.125rem;
-    display: flex;
     padding: 0.8rem 0.5rem;
-    border: 1px solid transparent;
     border-radius: 2px;
-    align-items: center;
+
 }
 
 .location:hover {
@@ -58,128 +73,115 @@
 }
 
 
-.location-name p:first-child{
-  font-weight: 100;
-  font-size: 0.8rem;
-  color: #cccccc;
+.location-name p:first-child {
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: #cccccc;
 }
 
-.location-name p:first-child{
+.location-name p:first-child {
     font-weight: 700;
     font-size: 0.9rem;
 }
 
-/*navbar 3rd div*/
 
-.search-bar{
-    display:flex;
+.search-bar {
+
     height: 3rem;
     width: 40vw;
-    border-radius: 2px;
     border: 3px solid transparent;
-    
-}
-.search-bar:hover{
-    border:3px solid #febd69 ;
+
 }
 
-.search-bar select{
+.search-bar:hover {
+    border: 3px solid #febd69;
+}
+
+.search-bar select {
     width: 3rem;
     border: none;
     border-radius: 2px 0 0 2px;
     background-color: #e6e6e6;
-    border:3px solid transparent; 
+    border: 3px solid transparent;
 }
 
-.search-input{
-width: 100%;
-border: none;
-padding: 7px 10px 10px 5px;
-font-size: medium;
+.search-input {
+    width: 100%;
+    border: none;
+    padding: 7px 10px 10px 5px;
+    font-size: medium;
 }
-.search-icon{
+
+.search-icon {
     width: 3rem;
-    background-color:#febd69 ;
-    border:2px solid transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #febd69;
+    border: 2px solid transparent;
     border-radius: 0 2px 2px 0;
-    
-}
-
-.search-icon i{
-    filter:invert(1);
-}
-
-.search-icon:focus{
-    border:2px solid #febd69 ;   
-}
-
-/*navbar 4th div*/
-
-.flag-language{
-    height: 3.125rem;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    
-    width:4rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
 
 }
-.flag-language:hover{
+
+.search-icon i {
+    filter: invert(1);
+}
+
+.search-icon:focus {
+    border: 2px solid #febd69;
+}
+
+.flag-language {
+
+    width: 4rem;
+    padding: 1rem 0.2rem;
+
+}
+
+.flag-language:hover {
     border: 1px solid #fff;
 }
-.flag img{
+
+.flag img {
     object-fit: cover;
-    height:1rem;
-    width:1.25rem;
+    height: 1rem;
+    width: 1.25rem;
     padding-top: 0.1rem;
 }
-.language{
+
+.language {
     margin-left: 0.2rem;
     font-weight: 600;
     font-size: 0.9rem;
     padding-right: 0.2rem;
 }
 
-/*  account div*/
-.account{
-    height: 3.125rem;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.account {
     padding: 0.1rem 0.1rem;
 }
 
-.account:hover{
+.account:hover {
     border: 1px solid #fff
 }
 
-.returns{
-    height: 3.125rem;
-    border: 1px solid transparent;
-    border-radius: 2px;
+
+.returns {
     padding: 0.1rem 0.1rem;
-   
+    padding-top: 0.4rem;
 }
-.returns:hover{
+
+.returns:hover {
     border: 1px solid #fff;
 }
 
-.returns p:first-child{
+.returns div:first-child {
     font-weight: 300;
     font-size: 0.8rem;
-    
-  }
+
 }
 
-.cart{
-    display: flex;
+
+.cart {
     padding: 0.1rem 0.1rem;
+}
+.cart:hover{
+    border: 1px solid #fff;
+
 }
