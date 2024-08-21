@@ -197,3 +197,46 @@
     padding: 0 0.3rem;
     font-weight: 600;
 }
+
+/* adds section*/
+
+.adds {
+    background-image: url(amazon-adv.jpg);
+    height: 110vh;
+    width: 100VW;
+    background-size: cover;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding-right: 1rem;
+}   
+
+.box{
+background-color:red;
+height: 23rem;
+width:23vw;
+padding: 1rem;
+}
+.box p{
+    color: #007185;
+    font-size: 0.8rem;
+}
+
+.headset-brands{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.brands{
+    height: 8rem;
+    font-size: 0.75rem;
+    color: #898a8a;
+    padding-top: 0.8rem;
+}
+.brands img{
+    height: 5.1rem;
+}
+
+
+.sale-products{
+    height:30rem;
+}
